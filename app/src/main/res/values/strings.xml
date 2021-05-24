@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Gps4</string>
+    <string name="Next">Next</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+    <string name="title1">Thông tin sân bóng</string>
+    <string name="text1">Thông tin sân bóng trong tay bạn</string>
+    <string name="title2">Tìm đối thủ nhanh</string>
+    <string name="text2">Tìm đối thủ cùng trình độ, chơi đẹp ở gần bạn</string>
+    <string name="title3">Tao lập câu lạc bộ</string>
+    <string name="text3">Tạo câu lạc bộ của riêng bạn và anh em</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Tiếp tục đăng nhập </string>
+    <string name="login1">Chào mừng trở lại</string>
+    <string name="vh">VIỆT HÀN</string>
+    <string name="vh1">sân bóng đá</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

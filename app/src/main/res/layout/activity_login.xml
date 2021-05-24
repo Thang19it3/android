@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/bangers"
+        android:text="Đăng nhập với"
+        android:textColor="@color/black"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="FACEBOOK"
+        android:fontFamily="@font/bangers"
+        android:textStyle="normal"
+        app:backgroundTint="@color/face"
+        android:layout_marginBottom="2dp"
+        />
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/bangers"
+        android:text="GOOGLE"
+        android:textStyle="normal"
+        app:backgroundTint="@color/red" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:text="SỐ ĐIỆN THOẠI"
+        android:fontFamily="@font/bangers"
+        android:textStyle="normal"
+        app:backgroundTint="@color/yellow" />
+    <Button
+        android:id="@+id/viethanLogin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="2dp"
+        android:text="VIỆT HÀN"
+        android:fontFamily="@font/bangers"
+        android:textStyle="normal"
+        app:backgroundTint="@color/teal_200" />
+
+</LinearLayout>
